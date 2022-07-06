@@ -12,3 +12,10 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+header {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    color: #fafafa;
+}
