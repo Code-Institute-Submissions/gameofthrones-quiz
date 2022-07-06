@@ -128,6 +128,9 @@ const questions = [{
     }
 ]
 
+const SCORE_POINTS = 10
+const MAX_QUESTIONS = 6
+
 /**
  * Create variables for the HTML elements
  */
