@@ -1,3 +1,5 @@
+// List of questions for the quiz
+
 const questions = [
     {
         question: "What is the seat of house Tully?",
@@ -126,3 +128,9 @@ const questions = [
         ]
     }
 ]
+
+/**
+ * Create variables for the HTML elements
+ */
+
+ const startButton = document.getElementById('begin-btn');
