@@ -1,7 +1,6 @@
 // List of questions for the quiz
 
-const questions = [
-    {
+const questions = [{
         question: "What is the seat of house Tully?",
         answers: [{
                 text: 'Winterfell',
@@ -141,21 +140,21 @@ const questions = [
 
  let randomQuestions, currentQuestionIndex;
 
- /**
- * Start the game
- */
-
 beginButton.addEventListener('click', beginGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   nextQuestion()
 })
 
+ /**
+ * Start the game
+ */
+
 function beginGame() {
     console.log('Started');
     beginButton.classList.add('hide');
     randomQuestions = questions.sort(() => Math.random() - .5);
-    currentQuestionsIndex = 0;
+    currentQuestionIndex = 0;
     questionContainerElement.classList.remove('hide');
     nextQuestion();
 }
@@ -184,7 +183,7 @@ function showQuestion(question) {
 
 function nextQuestion() {
     reset();
-    showQuestion(randomQuestions[currentQuestionsIndex]);
+    showQuestion(randomQuestions[currentQuestionIndex]);
 }
 
 /**
@@ -227,7 +226,7 @@ function selectAnswer(e) {
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct);
     })
-    if (randomQuestions.length > currentQuestionsIndex + 1) {
+    if (randomQuestions.length > currentQuestionIndex + 1) {
         nextButton.classList.remove('hide')
     } else {
         beginButton.innerText = 'Restart';
