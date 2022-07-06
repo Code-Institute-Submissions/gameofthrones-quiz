@@ -133,4 +133,5 @@ const questions = [
  * Create variables for the HTML elements
  */
 
- const startButton = document.getElementById('begin-btn');
+ const beginButton = document.getElementById('begin-btn');
+ const nextButton = document.getElementById('next-btn');
