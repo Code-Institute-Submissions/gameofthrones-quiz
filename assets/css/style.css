@@ -92,3 +92,11 @@ header {
 .hide {
     display: none;
 }
+
+#screen-item {
+    text-align: center;
+}
+
+#screen-prefix {
+    font-size: 1.5rem;
+}
