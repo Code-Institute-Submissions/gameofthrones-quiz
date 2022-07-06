@@ -210,3 +210,27 @@ function setStatusClass(element, correct) {
         element.classList.add('incorrect');
     }
 }
+
+ function clearStatusClass(element) {
+    element.classList.add('correct');
+    element.classList.add('incorrect');
+}
+
+/**
+ * Hiding the begin button
+ */
+
+function selectAnswer(e) {
+    const selectedButton = e.target;
+    const correct = selectedButton.dataset.correct;
+    setStatusClass(document.body, correct);
+    Array.from(answerButtonsElement.children).forEach(button => {
+        setStatusClass(button, button.dataset.correct);
+    })
+    if (randomQuestions.length > currentQuestionsIndex + 1) {
+        nextButton.classList.remove('hide')
+    } else {
+        beginButton.innerText = 'Restart';
+        beginButton.classList.remove('hide');
+    }
+}
