@@ -148,7 +148,7 @@ const questions = [
 beginButton.addEventListener('click', beginGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
-  setNextQuestion()
+  nextQuestion()
 })
 
 function beginGame() {
@@ -157,8 +157,12 @@ function beginGame() {
     randomQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionsIndex = 0;
     questionContainerElement.classList.remove('hide');
-    setNextQuestion();
+    nextQuestion();
 }
+
+/**
+ * Shows question 
+ */
 
 function showQuestion(question) {
     questionElement.innerText = question.question;
@@ -174,7 +178,22 @@ function showQuestion(question) {
     })
 }
 
-function setNextQuestion() {
+/**
+ * Pulls out the next question in line
+ */
+
+function nextQuestion() {
     resetState();
     showQuestion(randomQuestions[currentQuestionsIndex]);
+}
+
+/**
+ * Restarts the game
+ */
+
+function resetState() {
+    nextButton.classList.add('hide');
+    while (answerButtonsElement.firstChild) {
+        answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+    }
 }
