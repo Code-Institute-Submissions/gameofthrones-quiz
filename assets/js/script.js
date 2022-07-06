@@ -135,3 +135,4 @@ const questions = [
 
  const beginButton = document.getElementById('begin-btn');
  const nextButton = document.getElementById('next-btn');
+ const questionContainerElement = document.getElementById('quiz-container');
