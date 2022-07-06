@@ -137,3 +137,4 @@ const questions = [
  const nextButton = document.getElementById('next-btn');
  const questionContainerElement = document.getElementById('quiz-container');
  const questionElement = document.getElementById('question');
+ const answerButtonsElement = document.getElementById('answer-btns');
