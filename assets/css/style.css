@@ -58,3 +58,15 @@ header {
 .btn:hover {
     box-shadow: inset 700px 0 0 0 #843e3f;
 }
+
+.begin-btn {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.next-btn {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 5px 15px;
+}
