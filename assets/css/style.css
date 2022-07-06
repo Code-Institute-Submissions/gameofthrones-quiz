@@ -11,6 +11,7 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -34,6 +35,7 @@ header {
 
 /* styling for container */
 
+
 .container {
     width: 800px;
     max-width: 80%;
@@ -42,6 +44,10 @@ header {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
 /* styling for buttons */
@@ -68,7 +74,7 @@ header {
 /* this piece of code is credited to Brian Design | https://www.youtube.com/watch?v=zPcvAwp71uA&t=501s */
 
 .btn:hover {
-    background: liner;
+    box-shadow: inset 450px 0 0 0 #843e3f;
 }
 
 .begin-btn {
@@ -95,8 +101,12 @@ header {
 
 /* footer */
 
-footer {
+.footer-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    flex-direction: column;
 }
 
 .score-area {
