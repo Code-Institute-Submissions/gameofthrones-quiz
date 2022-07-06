@@ -140,3 +140,13 @@ const questions = [
  const questionContainerElement = document.getElementById('quiz-container');
 
  let randomQuestions, currentQuestionIndex;
+
+ /**
+ * Start the game
+ */
+
+startButton.addEventListener('click', startGame)
+nextButton.addEventListener('click', () => {
+  currentQuestionIndex++
+  setNextQuestion()
+})
