@@ -173,3 +173,8 @@ function showQuestion(question) {
         answerButtonsElement.appendChild(button);
     })
 }
+
+function setNextQuestion() {
+    resetState();
+    showQuestion(randomQuestions[currentQuestionsIndex]);
+}
