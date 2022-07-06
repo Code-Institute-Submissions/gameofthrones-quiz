@@ -145,8 +145,17 @@ const questions = [
  * Start the game
  */
 
-startButton.addEventListener('click', startGame)
+beginButton.addEventListener('click', beginGame)
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
 })
+
+function beginGame() {
+    console.log('Started');
+    beginButton.classList.add('hide');
+    randomQuestions = questions.sort(() => Math.random() - .5);
+    currentQuestionsIndex = 0;
+    questionContainerElement.classList.remove('hide');
+    setNextQuestion();
+}
