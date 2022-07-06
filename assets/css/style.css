@@ -68,7 +68,7 @@ header {
 /* this piece of code is credited to Brian Design | https://www.youtube.com/watch?v=zPcvAwp71uA&t=501s */
 
 .btn:hover {
-    box-shadow: inset 700px 0 0 0 #843e3f;
+    box-shadow: inset 400px 0 0 0 #843e3f;
 }
 
 .begin-btn {
