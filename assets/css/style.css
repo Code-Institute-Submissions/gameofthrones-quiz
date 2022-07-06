@@ -11,6 +11,11 @@ body {
     background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('../images/gameofthronesbackground.jpg');
     background-position: center;
     background-size: cover;
+    font-family: 'Righteous', sans-serif;
+}
+
+h1 {
+    font-family: 'Righteous', sans-serif;
 }
 
 header {
@@ -69,4 +74,10 @@ header {
     font-size: 1.8rem;
     font-weight: bold;
     padding: 5px 15px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
