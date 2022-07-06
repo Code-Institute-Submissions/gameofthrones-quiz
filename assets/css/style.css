@@ -68,7 +68,7 @@ header {
 /* this piece of code is credited to Brian Design | https://www.youtube.com/watch?v=zPcvAwp71uA&t=501s */
 
 .btn:hover {
-    box-shadow: inset 400px 0 0 0 #843e3f;
+    background: liner;
 }
 
 .begin-btn {
@@ -93,10 +93,29 @@ header {
     display: none;
 }
 
-#screen-item {
+/* footer */
+
+footer {
     text-align: center;
 }
 
-#screen-prefix {
-    font-size: 1.5rem;
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+#score {
+    color: green;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.scores {
+    display: inline-block;
+    padding: 25px;
 }

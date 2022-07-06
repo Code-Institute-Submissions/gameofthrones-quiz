@@ -30,11 +30,22 @@
             <button id="begin-btn" class="begin-btn btn">begin</button>
             <button id="next-btn" class="next-btn btn hide">next</button>
         </div>
-
-        <footer>
-            C Copyright
-        </footer>
+        <div id="player-name-form-container" class="hide">
+            <form id="player-name-form">
+                <h2>Enter Player Name</h2>
+                <label for="player-name" class="input-element">Player Name: </label>
+                <input type="text" name="player-name" id="player-name" required>
+                <button type="submit">Ok</button>
+            </form>
+        </div>
+        <div class="score-area">
+            <p class="scores"> Correct Answers <span id="score">0</span></p>
+            <p class="scores"> Incorrect Answers <span id="incorrect">0</span> </p>
+        </div>
         <script src="assets/js/script.js"></script>
 </body>
+<footer>
+    C Copyright
+</footer>
 
 </html>

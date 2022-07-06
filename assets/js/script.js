@@ -135,21 +135,23 @@ const MAX_QUESTIONS = 6
  * Create variables for the HTML elements
  */
 
- const beginButton = document.getElementById('begin-btn');
- const nextButton = document.getElementById('next-btn');
- const answerButtonsElement = document.getElementById('answer-btns');
- const questionElement = document.getElementById('question');
- const questionContainerElement = document.getElementById('quiz-container');
+const beginButton = document.getElementById('begin-btn');
+const nextButton = document.getElementById('next-btn');
+const answerButtonsElement = document.getElementById('answer-btns');
+const questionElement = document.getElementById('question');
+const questionContainerElement = document.getElementById('quiz-container');
 
- let randomQuestions, currentQuestionIndex;
+let randomQuestions, currentQuestionIndex;
+
+
 
 beginButton.addEventListener('click', beginGame)
 nextButton.addEventListener('click', () => {
-  currentQuestionIndex++
-  nextQuestion()
+    currentQuestionIndex++
+    nextQuestion()
 })
 
- /**
+/**
  * Start the game
  */
 
@@ -213,7 +215,7 @@ function setStatusClass(element, correct) {
     }
 }
 
- function clearStatusClass(element) {
+function clearStatusClass(element) {
     element.classList.add('correct');
     element.classList.add('incorrect');
 }
@@ -236,3 +238,4 @@ function selectAnswer(e) {
         beginButton.classList.remove('hide');
     }
 }
+
