@@ -1,1 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url('../images/gameofthronesbackground.jpg');
+    background-position: center;
+    background-size: cover;
+}
