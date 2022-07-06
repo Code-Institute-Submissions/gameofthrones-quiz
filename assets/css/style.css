@@ -52,3 +52,9 @@ header {
     box-shadow: inset 0 0 0 0 #843e3f;
     border: none;
 }
+
+/* this piece of code is credited to Brian Design | https://www.youtube.com/watch?v=zPcvAwp71uA&t=501s */
+
+.btn:hover {
+    box-shadow: inset 700px 0 0 0 #843e3f;
+}
