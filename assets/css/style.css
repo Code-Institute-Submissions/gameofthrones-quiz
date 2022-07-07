@@ -40,7 +40,7 @@ header {
 .container {
     width: 800px;
     max-width: 80%;
-    background-color: #563e4d;
+    background-color: rgba(86, 62, 77, 0.6);
     color: #fafafa;
     border-radius: 10px;
     padding: 10px;
