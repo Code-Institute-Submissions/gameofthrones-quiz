@@ -59,3 +59,38 @@ The game has three distinct features, which I have taken screenshots of and post
 
 ## Pages: 
 There is just the one page on this website.
+
+## Testing:
+- I am able to confirm that the website is responsive on different browsers, such as Google Chrome, Safari and Internet Explorer. 
+- The website was tested on iPhone 12 to satisfaction.  
+- The website works okay in function and in looks, with the exception of the not working score board.
+
+# Validator Tests:
+
+### W3C HTML:
+
+* The result shows that there are no erros in code. See the results here: [W3C Validator](https://validator.w3.org/nu/#textarea)
+
+![W3C HTML Validator](assets/images/W3C%20HTML.jpg)
+
+* ### W3C CSS
+
+I also used W3C validator for CSS and the results can be seen here [W3C Validator CSS](https://validator.w3.org/nu/#textarea)
+
+![W3C CSS Validator](assets/images/W3C%20CSS.jpg)
+
+
+* ### BeatifyTools
+
+ I used BeatifyTools to validate the javaScript code and it returned with two errors of code which I could not make work properly. 
+![JAVASCRIPT-VALIDATOR](./assets/images/Javascript%20validator.jpg)
+
+* ### Lighthouse
+
+I used lighthouse in dev tools of Google Chrome to test the website on desktop and mobile. 
+
+#### Desktop
+![LIGHTHOUSE-DESKTOP](./assets/images/desktop%20testing.jpg)
+
+#### Mobile
+![LIGHTHOUSE-MOBILE](./assets/images/mobile%20testing.jpg)
