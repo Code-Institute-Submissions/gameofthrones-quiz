@@ -12,6 +12,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -47,7 +48,8 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    margin: auto 0;
+
 }
 
 /* styling for buttons */
@@ -99,15 +101,7 @@ header {
     display: none;
 }
 
-/* footer */
-
-.footer-column {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-}
+/* score area */
 
 .score-area {
     margin: 5px auto;
@@ -128,4 +122,16 @@ header {
 .scores {
     display: inline-block;
     padding: 25px;
+}
+
+/* footer */
+
+footer {
+    margin-top: auto;
+    background-color: #1c1d1d;
+    color: #fff;
+    height: 150px;
+    width: 100vw;
+    padding-top: 30px;
+    text-align: center;
 }
