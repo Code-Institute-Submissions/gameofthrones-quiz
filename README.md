@@ -94,3 +94,14 @@ I used lighthouse in dev tools of Google Chrome to test the website on desktop a
 
 #### Mobile
 ![LIGHTHOUSE-MOBILE](./assets/images/mobile%20testing.jpg)
+
+
+## Unfixed bugs
+As of right now there are two problems in the project.
+
+1. The scoreboard does not show correct or incorrect answers.
+2. The hover effect does not last when an answer is pressed.
+
+Other than these bugs, there are no other issues.
+
+
