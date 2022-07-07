@@ -138,3 +138,19 @@ The live link is found here https://hemenhk.github.io/gameofthrones-quiz/.
 - Select "download zip".
 - Extract the content onto your desktop.
 - Click on any file to access the pages.
+
+# Credits
+
+## Coding Content
+- Most of the coding was done by myself from knowledge gained throughout the code modules.
+- The layout of the website was inspired by [Wasim Bechlaoui](https://wasim-eb.github.io/quiz-game/), which I found to be clean and user friendly.
+- Instructions on how to implement hover effects on the buttons are credited to [Brian Design]()
+Easy Tutorials](https://www.youtube.com/watch?v=zPcvAwp71uA&t=502s). 
+- The score board code is credited to Code Institute's Love Maths Project [Anna Greaves](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/a8ec361b95e94c25bf8a821654bd57bc/)
+
+
+## Media
+
+### Images
+
+All images used on this project were downloaded from [Unsplash](https://unsplash.com/)
