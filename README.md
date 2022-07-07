@@ -123,3 +123,18 @@ To deploy this project to GitHub Pages from the Github repository, the following
 7. Click on the link provided to access the finished website.
 
 The live link is found here https://hemenhk.github.io/gameofthrones-quiz/.
+
+### Clone This Project 
+
+- Under repository press "code" and select "clone".
+- Open Git Bash.
+- Change current working directory to the location where you wish to have the cloned directory.
+- Type "git clone" and paste the URL which you copied previously.
+- Press "enter" to create a local clone.
+
+### Access This Project On Local Desktop
+
+- Under repository press the "code" button next to "add file".
+- Select "download zip".
+- Extract the content onto your desktop.
+- Click on any file to access the pages.
