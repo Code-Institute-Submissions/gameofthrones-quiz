@@ -100,8 +100,26 @@ I used lighthouse in dev tools of Google Chrome to test the website on desktop a
 As of right now there are two problems in the project.
 
 1. The scoreboard does not show correct or incorrect answers.
-2. The hover effect does not last when an answer is pressed.
+2. The hover effect does not last when an answer is pressed on desktop version, works fine on mobile.
 
 Other than these bugs, there are no other issues.
 
+## Potential future features
+- I want to add more questions of lore from the books, to give more substance to the quiz.
+- The user should be able to lock in their answers using a lasting hover effect on the buttons, so far this feature is only available on the mobile version.
 
+# Deployment
+
+This project was created using Gitpod, and committed to git and pushed to Github by the use of git commands.
+
+To deploy this project to GitHub Pages from the Github repository, the following steps were taken:
+
+1. Log into Github
+2. Go to repositories and select on "strength-house".
+3. Select "settings" on the menu.
+4. Scroll down to "pages" and select it. 
+5. In the "source" section click on "branch" and select "main".
+6. Click save and wait for the repository to be published.
+7. Click on the link provided to access the finished website.
+
+The live link is found here https://hemenhk.github.io/gameofthrones-quiz/.
